@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# 🍿 usepopcorn
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**usepopcorn** is a sleek and interactive React web app that lets you search for movies and TV shows using the **OMDb API**, view their details and IMDb ratings, and log the ones you've watched—with your own personal star rating. ⭐ All of your watched content and ratings are saved locally in your browser using **localStorage**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎬 Features
 
-### `npm start`
+- 🔍 **Search** for any movie or show using the OMDb API.
+- 📋 **See a list of search results** with titles, years, and basic info.
+- 🖼 **View detailed info** by clicking on a movie (poster, IMDb rating, release date, description, etc).
+- ⭐ **Rate the movie yourself** with a 10-star system.
+- ✅ **Add it to your Watched list** with your custom rating.
+- 🧠 **Summary statistics** like total movies watched, average IMDb rating, and your average rating.
+- 💾 **Data is stored in localStorage**, so it’s always available when you come back.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tech Stack
 
-### `npm test`
+- React (built with Create React App)
+- OMDb API for movie data
+- Local Storage for saving watched movies
+- Custom CSS for styling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the project and run it locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/your-username/usepopcorn.git
+cd usepopcorn
+npm install
+npm start
+```
+Then open http://localhost:3000 in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📸 Screenshot
 
-### `npm run eject`
+Here’s what usepopcorn looks like in action:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![App screenshot 1](https://github.com/user-attachments/assets/f9c4aec6-c0c9-48bb-b047-267a084974bd)
+![App screenshot 2](https://github.com/user-attachments/assets/f55dc2d7-148b-4e70-ac61-8aecb571cdb2)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✍️ Author
+Built with love and popcorn 🍿 by Zelalem
